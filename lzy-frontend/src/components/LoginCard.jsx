@@ -28,6 +28,7 @@ const LoginCard = () => {
         <button className="social-btn facebook"><span className="icon">f</span> Facebook</button>
       </div>
       <button className="create-account-btn">Create New Account</button>
+      
       <button className="dashboard-nav-btn" onClick={() => navigate('/dashboard')}>Go to Dashboard</button>
     </div>
   );
