@@ -1,0 +1,90 @@
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: #fff;
+  padding: 0 32px;
+  height: 60px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.06);
+  border-radius: 12px 12px 0 0;
+  font-family: 'Segoe UI', Arial, sans-serif;
+}
+
+.navbar-left {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.navbar-logo {
+  height: 38px;
+  width: auto;
+}
+
+.navbar-brand-text {
+  font-size: 1.25rem;
+  font-weight: 700;
+  color: #222;
+  margin-left: 6px;
+}
+
+.navbar-center {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  background: #f3f4f6;
+  padding: 6px 18px;
+  border-radius: 20px;
+  box-shadow: 0 1px 4px rgba(0,0,0,0.04);
+}
+
+.navbar-user-avatar {
+  font-size: 1.3rem;
+  margin-right: 6px;
+}
+
+.navbar-user-name {
+  font-weight: 600;
+  font-size: 1.05rem;
+  margin-right: 4px;
+}
+
+.navbar-user-id {
+  color: #888;
+  font-size: 0.98rem;
+}
+
+.navbar-right {
+  display: flex;
+  align-items: center;
+  gap: 18px;
+}
+
+.navbar-icon {
+  font-size: 1.25rem;
+  cursor: pointer;
+  transition: color 0.18s, transform 0.18s;
+  color: #222;
+}
+.navbar-icon:hover {
+  color: #1976d2;
+  transform: scale(1.18);
+} 
+
+.navbar-dashboard-btn {
+  background: #7c3aed;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  padding: 7px 20px;
+  font-size: 1rem;
+  font-weight: 600;
+  margin-left: 14px;
+  cursor: pointer;
+  transition: background 0.18s, box-shadow 0.18s;
+  box-shadow: 0 2px 8px rgba(124, 58, 237, 0.08);
+}
+.navbar-dashboard-btn:hover {
+  background: #5b21b6;
+  box-shadow: 0 4px 16px rgba(124, 58, 237, 0.16);
+} 

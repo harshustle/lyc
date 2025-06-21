@@ -1,0 +1,71 @@
+.ads-stats-row {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  gap: 36px;
+  justify-content: center;
+  margin: 48px 0 0 0;
+  max-width: 900px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.ads-stats-card {
+  background: #fff;
+  border-radius: 18px;
+  box-shadow: 0 4px 24px rgba(80, 112, 255, 0.08);
+  width: 220px;
+  height: 220px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 32px 28px 28px 28px;
+  transition: box-shadow 0.2s, transform 0.2s;
+  font-size: 1.15rem;
+}
+.ads-stats-card:hover {
+  box-shadow: 0 8px 32px rgba(80, 112, 255, 0.16);
+  transform: translateY(-4px) scale(1.03);
+}
+
+.ads-stats-card-header {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  width: 100%;
+  margin-bottom: 18px;
+}
+
+.ads-stats-card-title {
+  font-size: 1.15rem;
+  color: #888;
+  font-weight: 500;
+}
+
+.ads-stats-card-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 12px;
+  width: 48px;
+  height: 48px;
+  margin-left: 8px;
+  font-size: 2rem;
+}
+
+.ads-stats-card-value {
+  font-size: 2.2rem;
+  font-weight: 700;
+  color: #222;
+  margin-bottom: 4px;
+}
+
+.ads-stats-card:nth-child(4) {
+  grid-column: 1 / 2;
+  grid-row: 2 / 3;
+}
+.ads-stats-card:nth-child(5) {
+  grid-column: 2 / 3;
+  grid-row: 2 / 3;
+} 
